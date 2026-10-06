@@ -100,10 +100,10 @@
                     </option>
 
                     <option
-                        value="Kurikulum"
-                        {{ old('kategori', $berita->kategori) == 'Kurikulum' ? 'selected' : '' }}
+                        value="Pengumuman"
+                        {{ old('kategori', $berita->kategori) == 'Pengumuman' ? 'selected' : '' }}
                     >
-                        Kurikulum
+                        Pengumuman
                     </option>
 
                 </select>

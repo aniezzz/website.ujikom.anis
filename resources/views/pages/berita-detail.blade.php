@@ -81,11 +81,9 @@
             </div>
         </div>
 
-        <div class="col-lg-4">
-            <div class="contact-info-card">
-                <div class="sidebar-title">Berita Terpopuler</div>
-                @foreach ($terpopuler as $item)
-                    <a href="{{ url('/berita/' . $item->id) }}" class="sidebar-item">
+             <div class="col-lg-4 berita-sidebar-col">            <div class="contact-info-card">
+             <div class="sidebar-title">Berita Terbaru</div>       
+                     @foreach ($terpopuler as $item)                    <a href="{{ url('/berita/' . $item->id) }}" class="sidebar-item">
                         <img src="{{ asset('images/' . $item->gambar[0]) }}" alt="{{ $item->judul }}" class="sidebar-item-img">
                         <div>
                             <div class="sidebar-item-title">{{ $item->judul }}</div>

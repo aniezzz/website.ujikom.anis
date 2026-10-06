@@ -5,8 +5,14 @@
 @section('content')
 
 <div class="container py-5">
-    <h1 class="berita-page-title">Berita</h1>
+<div class="berita-heading">
+    <h1>Berita & Informasi Terbaru</h1>
 
+    <p>
+        Ikuti berbagai kabar, kegiatan, dan informasi terbaru
+        dari SMK Negeri 4 Kota Bogor.
+    </p>
+</div>
     {{-- FEATURED BERITA DENGAN CAROUSEL --}}
     @if ($featured)
         <div class="featured-berita-card">

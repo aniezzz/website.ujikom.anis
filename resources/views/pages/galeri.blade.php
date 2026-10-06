@@ -32,15 +32,11 @@
             </button>
 
             <button class="ks-filter-btn" data-filter="Kegiatan Siswa">
-                Kegiatan Siswa
+             Kegiatan Sekolah
             </button>
 
             <button class="ks-filter-btn" data-filter="Prestasi">
                 Prestasi
-            </button>
-
-            <button class="ks-filter-btn" data-filter="Lingkungan Sekolah">
-                Lingkungan Sekolah
             </button>
 
         </div>

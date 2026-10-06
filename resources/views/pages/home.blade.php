@@ -15,7 +15,7 @@
                 <div class="col-lg-7">
 
                     <h1 class="fw-bold mb-3" style="font-size: 2.2rem;">
-                        Selamat Datang di SMK Negeri 4 Kota Bogor
+                     Selamat Datang Di Sistem Informasi SMK Negeri 4 Kota Bogor
                     </h1>
 
                     <p class="mb-4" style="font-size: 1rem; color: #E8E8E8;">
@@ -153,7 +153,7 @@
                     <div class="about-home-main-image">
 
                         <img
-                            src="{{ asset('images/hero-sekolah.jpg') }}"
+                            src="{{ asset('images/hero-sekolah1.jpg') }}"
                             alt="SMK Negeri 4 Kota Bogor"
                         >
 
@@ -189,7 +189,7 @@
                     <div class="about-home-secondary-image">
 
                         <img
-                            src="{{ asset('images/program-rpl.jpg') }}"
+                            src="{{ asset('images/program-rpl1.jpg') }}"
                             alt="Kegiatan siswa SMK Negeri 4 Kota Bogor"
                         >
 

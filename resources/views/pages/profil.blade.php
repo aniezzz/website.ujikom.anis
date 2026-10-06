@@ -4,10 +4,18 @@
 
 @section('content')
 
-      {{-- PAGE HEADER --}}
-       <section class="page-header-photo" style="background-image: url('{{ asset('images/header-profil.jpg') }}');">
-    <div class="page-header-overlay"></div>
+     {{-- PAGE HEADER PROFIL --}}
+<section class="profil-page-header">
+    <div class="container text-center">
+        <div class="profil-page-label">TENTANG SEKOLAH</div>
 
+        <h1>Profil SMK Negeri 4 Kota Bogor</h1>
+
+        <p>
+            Mengenal lebih dekat SMK Negeri 4 Kota Bogor,
+            perjalanan, visi, misi, dan lingkungan pendidikan kami.
+        </p>
+    </div>
 </section>
 {{-- TENTANG SEKOLAH SECTION --}}
 <section class="profil-about-section py-5">
@@ -24,7 +32,7 @@
     {{-- FOTO UTAMA --}}
     <div class="profil-about-main-image">
         <img
-            src="{{ asset('images/hero-sekolah.jpg') }}"
+            src="{{ asset('images/hero-sekolah1.jpg') }}"
             alt="SMK Negeri 4 Kota Bogor"
         >
     </div>
@@ -59,7 +67,7 @@
     <div class="profil-about-secondary-image">
 
         <img
-            src="{{ asset('images/program-rpl.jpg') }}"
+            src="{{ asset('images/program-rpl1.jpg') }}"
             alt="Kegiatan siswa SMK Negeri 4 Kota Bogor"
         >
 
@@ -242,8 +250,8 @@
                 <div class="org-top-wrap">
                     <div class="org-node org-node-top">
                         <div class="org-photo">
-                            <i class="bi bi-person-fill"></i>
-                        </div>
+                        <img src="{{ asset('images/kepala-sekolah.jpg') }}" alt="Kepala Sekolah">
+                       </div>
                         <div class="org-name">Drs. Mulya Murpihartono, M.Si</div>
                         <div class="org-role">Kepala Sekolah</div>
                     </div>

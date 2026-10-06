@@ -34,11 +34,17 @@
             </div>
 
 
-            <div class="admin-brand-footer">
+            {{-- BAWAH: disamakan dengan halaman register --}}
+            <div class="admin-brand-bottom">
 
-                <i class="bi bi-shield-check"></i>
+                <div class="admin-security-box">
+                    <i class="bi bi-shield-check"></i>
+                    <span>Sistem administrasi khusus pengelola website sekolah.</span>
+                </div>
 
-                Sistem administrasi khusus pengelola website
+                <div class="admin-copyright">
+                    &copy; {{ date('Y') }} SMK Negeri 4 Bogor. All Rights Reserved.
+                </div>
 
             </div>
 
@@ -51,14 +57,14 @@
             <div class="admin-form-header">
 
                 <span class="admin-form-label">
-                 ADMIN ACCESS
-                 </span>
+                    ADMINISTRATION
+                </span>
 
-                <h2>Selamat Datang Kembali</h2>
+                <h2>Masuk ke Akun Admin</h2>
 
                 <p>
-                 Masuk untuk melanjutkan ke ruang administrasi
-                 SMKN 4 Bogor.
+                    Masuk untuk melanjutkan ke ruang administrasi
+                    SMKN 4 Bogor.
                 </p>
 
             </div>
@@ -130,7 +136,7 @@
                 </div>
 
 
-                {{-- REMEMBER ME --}}
+                {{-- INGAT SAYA & LUPA PASSWORD --}}
                 <div class="admin-remember">
 
                     <label for="remember_me">
@@ -141,9 +147,7 @@
                             name="remember"
                         >
 
-                        <span>
-                            Ingat saya
-                        </span>
+                        <span>Ingat saya</span>
 
                     </label>
 
@@ -159,7 +163,7 @@
                 </div>
 
 
-                {{-- LOGIN --}}
+                {{-- TOMBOL MASUK --}}
                 <div class="admin-form-footer">
 
                     <button
@@ -167,15 +171,25 @@
                         class="admin-submit-btn"
                     >
 
-                        <span>Masuk ke Dashboard</span>
+                        <span>Masuk</span>
                         <i class="bi bi-arrow-right"></i>
 
                     </button>
 
 
-                    <div class="admin-login-link">
+                    @if (Route::has('register'))
 
-                    </div>
+                        <div class="admin-login-link">
+
+                            <span>Belum memiliki akun?</span>
+
+                            <a href="{{ route('register') }}">
+                                Buat akun admin
+                            </a>
+
+                        </div>
+
+                    @endif
 
                 </div>
 

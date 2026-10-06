@@ -102,9 +102,9 @@
                                         Prestasi
                                     </option>
 
-                                    <option value="Kurikulum"
-                                        {{ old('kategori') == 'Kurikulum' ? 'selected' : '' }}>
-                                        Kurikulum
+                                    <option value="Pengumuman"
+                                        {{ old('kategori') == 'Pengumuman' ? 'selected' : '' }}>
+                                        Pengumuman
                                     </option>
                                 </select>
                             </div>

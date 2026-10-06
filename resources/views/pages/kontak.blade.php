@@ -4,15 +4,17 @@
 
 @section('content')
 
-    {{-- HEADER --}}
-    <section class="kontak-header">
-        <div class="container">
-            <h1 class="fw-bold mb-2" style="font-size: 1.8rem;">Hubungi Kami</h1>
-            <p class="text-muted mx-auto mb-0" style="max-width: 500px;">
-                Kami siap membantu Anda. Jangan ragu untuk mengirimkan pertanyaan, saran, atau informasi lainnya mengenai SMKN 4 Bogor melalui saluran di bawah ini.
-            </p>
-        </div>
-    </section>
+   {{-- HEADER --}}
+<section class="kontak-header">
+    <div class="container">
+        <h1>Hubungi Kami</h1>
+        <p>
+            Kami siap membantu Anda. Jangan ragu untuk mengirimkan pertanyaan,
+            saran, atau informasi lainnya mengenai SMKN 4 Bogor melalui saluran
+            di bawah ini.
+        </p>
+    </div>
+</section>
 
     <div class="container py-5">
 
@@ -99,7 +101,7 @@
                             <option
                                 value="Lainnya"
                                 {{ old('subjek') == 'Lainnya' ? 'selected' : '' }}
-                            
+                            >
                                 Lainnya
                             </option>
                         </select>
